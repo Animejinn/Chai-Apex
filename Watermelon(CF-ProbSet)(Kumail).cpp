@@ -2,20 +2,6 @@
 
 using namespace std;
 
-void evenMelon(int div)
-{
-    int evenchk = div/2;
-    if(evenchk % 2 == 0)
-    {
-        cout<<"YES";
-    }
-    else
-    {
-        cout<<"NO";
-    }
-
-}
-
 int main()
 {
     int w = -1;
@@ -24,8 +10,19 @@ int main()
         cout<<"Give the weight of the Watermelon: ";
         cin>>w;
     }
-    evenMelon(w);
-
+    
+    
+    if(w % 2 == 0)
+    {
+        if((w/2) % 2 == 0)
+        {
+            cout<<"YES";
+        }
+    }
+    else
+    {
+        cout<<"NO";
+    }
     return 0;
 
 }
