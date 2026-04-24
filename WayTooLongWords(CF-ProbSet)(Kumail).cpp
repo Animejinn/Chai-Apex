@@ -24,7 +24,7 @@ int main()
         }
         else
         {
-            cout<<word;
+            cout<<word[i];
         }
     }
     return 0;
