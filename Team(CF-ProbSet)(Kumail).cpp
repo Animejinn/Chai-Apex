@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-    short p;
+    int p;
     short choice[3];
     short solP = 0;
     cin>>p;
-    for(short i = 0; i < p; i++)
+    for(int i = 0; i < p; i++)
     {
-        cin>>choice[1]>>choice[2]>>choice[3];
-        if(choice[1]+choice[2]+choice[3] > 1)
+        cin>>choice[0]>>choice[1]>>choice[2];
+        if(choice[0]+choice[1]+choice[2] > 1)
         {
             solP++;
         }
