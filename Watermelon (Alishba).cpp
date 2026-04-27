@@ -2,12 +2,11 @@
 using namespace std;
 int main(){
     int w;
-    cout<<" enter watermelon = ";
     cin>>w;
     if( w%2==0 & w>2){
-        cout<<"yes";
+        cout<<"Yes";
     }
     else 
-    cout<<"no";
+    cout<<"No";
  return 0;
 }
